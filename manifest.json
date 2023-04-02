@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Galileo",
+  "version": "1.0",
+  "description": "Galileo by Data Engineer at Blibli",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://console.cloud.google.com/bigquery*"]
+    }
+  ]
+}
